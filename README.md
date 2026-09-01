@@ -12,6 +12,8 @@
   <a href="https://www.beyourselflabs.com/pro">Plans &amp; pricing</a>
   ·
   <a href="https://www.beyourselflabs.com">Documentation</a>
+  ·
+  <a href="https://github.com/beyourselflabs/persona-pro/issues/new?template=bug_report.yml">Report a bug</a>
 </p>
 
 Teams need Cursor usage by repository, not just by user, model, and day. Cursor's Team exports still stop at the seat. Without repo-level numbers, AI spend becomes overhead you absorb instead of a billable project cost.
@@ -48,6 +50,16 @@ Teams need Cursor usage by repository, not just by user, model, and day. Cursor'
 
 See [Plans & pricing](https://www.beyourselflabs.com/pro) for the full comparison.
 
+## Bug reports
+
+Use the [bug report form](https://github.com/beyourselflabs/persona-pro/issues/new?template=bug_report.yml). You will need:
+
+- **Persona version** and **Cursor version**
+- Confirmation that you have an **active Persona Pro license**
+- **Steps to reproduce** as a numbered list (1. 2. 3.)
+
+Free-tier account switching and routing issues belong on the main [Persona](https://github.com/beyourselflabs/persona) repository.
+
 ## Notes
 
 Cost figures are estimates from local Cursor databases and public model rates. Cursor does not publish billed dollars per repository. Pro reads the same local data Persona already uses for routing; nothing leaves your machine unless you opt into Pro + Cloud when it ships.
@@ -56,4 +68,5 @@ Cost figures are estimates from local Cursor databases and public model rates. C
 
 - [Persona documentation](https://www.beyourselflabs.com)
 - [Plans & pricing](https://www.beyourselflabs.com/pro)
+- [Report a bug](https://github.com/beyourselflabs/persona-pro/issues/new?template=bug_report.yml)
 - [Open VSX](https://open-vsx.org/extension/Beyourselflabs/persona)

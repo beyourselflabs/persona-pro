@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Persona documentation
+    url: https://www.beyourselflabs.com
+    about: Setup, personas, routing, and getting started
+  - name: Plans & pricing
+    url: https://www.beyourselflabs.com/pro
+    about: Persona Pro and Pro + Cloud
+  - name: Install Persona
+    url: https://open-vsx.org/extension/Beyourselflabs/persona
+    about: Open VSX extension page

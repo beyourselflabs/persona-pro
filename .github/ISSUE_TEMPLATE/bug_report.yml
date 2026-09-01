@@ -1,0 +1,76 @@
+name: Bug Report
+description: Report a Persona Pro bug
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please complete every field below.
+
+        Pro feature bugs require an active **Persona Pro** license. Free-tier routing or account-switching issues belong on the main [Persona](https://github.com/beyourselflabs/persona) repository.
+
+  - type: checkboxes
+    id: pro-license
+    attributes:
+      label: Persona Pro license
+      description: Required for Pro dashboard, CSV export, licensing, and usage ledger issues.
+      options:
+        - label: I confirm I have an active Persona Pro license
+          required: true
+
+  - type: input
+    id: persona-version
+    attributes:
+      label: Persona version
+      description: Cursor → Extensions → Persona → gear icon → Extension Settings, or the version shown in the extension details panel.
+      placeholder: "1.0.1"
+    validations:
+      required: true
+
+  - type: input
+    id: cursor-version
+    attributes:
+      label: Cursor version
+      description: Cursor → Help → About (macOS/Windows) or Help → About Cursor (Linux).
+      placeholder: "0.45.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a numbered list (1. 2. 3.) so we can replay the issue exactly.
+      placeholder: |
+        1. Open Persona Pro dashboard with two mapped client repos
+        2. Filter by persona X
+        3. Export CSV
+        4. See error …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: OS, persona ids, repo names, screenshots, or log excerpts. Optional but helpful.
+    validations:
+      required: false
