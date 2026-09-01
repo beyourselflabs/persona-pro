@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a Persona Pro bug
+description: Report a Persona bug
 title: "[Bug]: "
 labels:
   - bug
@@ -9,16 +9,16 @@ body:
       value: |
         Thanks for taking the time to report a bug. Please complete every field below.
 
-        Pro feature bugs require an active **Persona Pro** license. Free-tier routing or account-switching issues belong on the main [Persona](https://github.com/beyourselflabs/persona) repository.
+        Anyone can file an issue here. Reports from **Persona Pro** license holders get priority triage.
 
   - type: checkboxes
     id: pro-license
     attributes:
       label: Persona Pro license
-      description: Required for Pro dashboard, CSV export, licensing, and usage ledger issues.
+      description: Optional. Check this if you have Pro so we can prioritize your report.
       options:
-        - label: I confirm I have an active Persona Pro license
-          required: true
+        - label: I have an active Persona Pro license
+          required: false
 
   - type: input
     id: persona-version

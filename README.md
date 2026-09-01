@@ -22,13 +22,13 @@ Teams need Cursor usage by repository, not just by user, model, and day. Cursor'
 
 ## What Pro adds
 
-| | Free Persona | Persona Pro | Pro + Cloud |
-| --- | --- | --- | --- |
-| Account switching & routing | Yes | Yes | Yes |
-| Spend for the current window | Yes | Yes | Yes |
-| Cost & model breakdown per project | — | Yes | Yes |
-| Forecast & reconcile by job code | — | Yes | Yes |
-| Team-wide ledger | — | — | Coming soon |
+|                                    | Free Persona | Persona Pro | Pro + Cloud |
+| ---------------------------------- | ------------ | ----------- | ----------- |
+| Account switching & routing        | Yes          | Yes         | Yes         |
+| Spend for the current window       | Yes          | Yes         | Yes         |
+| Cost & model breakdown per project | —            | Yes         | Yes         |
+| Forecast & reconcile by job code   | —            | Yes         | Yes         |
+| Team-wide ledger                   | —            | —           | Coming soon |
 
 **Free Persona** covers switching, routing, and estimated spend for the project in the current window.
 
@@ -52,13 +52,9 @@ See [Plans & pricing](https://www.beyourselflabs.com/pro) for the full compariso
 
 ## Bug reports
 
-Use the [bug report form](https://github.com/beyourselflabs/persona-pro/issues/new?template=bug_report.yml). You will need:
+Use the [bug report form](https://github.com/beyourselflabs/persona-pro/issues/new?template=bug_report.yml). Anyone can file an issue. **Persona Pro** license holders get priority triage.
 
-- **Persona version** and **Cursor version**
-- Confirmation that you have an **active Persona Pro license**
-- **Steps to reproduce** as a numbered list (1. 2. 3.)
-
-Free-tier account switching and routing issues belong on the main [Persona](https://github.com/beyourselflabs/persona) repository.
+Include **Persona version**, **Cursor version**, and **steps to reproduce** as a numbered list (1. 2. 3.). Check the Pro license box if you have one.
 
 ## Notes
 
