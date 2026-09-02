@@ -33,7 +33,7 @@ Teams need Cursor usage by repository, not just by user, model, and day. Cursor'
 
 **Free Persona** covers switching, routing, and estimated spend for the project in the current window.
 
-**Pro** unlocks the Insights dashboard with cost and model breakdown per project, CSV export for invoices and job codes, and optional Agents Window token sync. Includes a free 30-day trial on this machine; a license unlocks every persona window on that machine.
+**Pro** unlocks the Insights dashboard with cost and model breakdown per project, CSV export for invoices and job codes, and optional Agents Window token sync. Includes a free 30-day trial; a license unlocks every persona window on a single machine.
 
 **Pro +** (coming soon) rolls the ledger up across the team: token counts and costs per project for billables and forecasting.
 
